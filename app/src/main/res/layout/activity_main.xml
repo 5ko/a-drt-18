@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Created on 05/03/16 by Petko YOTOV www.pmwiki.org/petko
+Copyright (c) 2016-2018 Petko YOTOV All rights reserved
+Commissioned by and developed with Dr Toolbox who are granted
+worldwide, perpetual, irrevocable, royalty-free permission,
+to use, modify, copy, publish, sub-licence and sell their copies
+of the software as long as their “open source licences” are respected
+-->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    tools:context=".MainActivity">
+
+    <WebView
+        android:id="@+id/activity_main_webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="0dp"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:paddingTop="0dp" />
+</RelativeLayout>
